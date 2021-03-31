@@ -1,0 +1,1 @@
+DELETE FROM carro WHERE idmontadora=2; 

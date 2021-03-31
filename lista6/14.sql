@@ -1,0 +1,1 @@
+SELECT modelo,versao,cilindrada FROM carro WHERE combustivel="gasolina";

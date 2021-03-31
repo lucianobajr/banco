@@ -1,0 +1,1 @@
+SELECT modelo,versao,cilindrada FROM carro WHERE CAST(cilindrada AS unsigned integer)>=1000 AND CAST(cilindrada as unsigned integer)<=2000 ORDER BY CAST(cilindrada as unsigned integer) DESC,versao;

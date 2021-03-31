@@ -1,0 +1,1 @@
+SELECT * FROM carro WHERE modelo LIKE "P%" ORDER BY versao ASC;

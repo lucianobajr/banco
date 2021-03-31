@@ -1,0 +1,1 @@
+UPDATE carro SET cilindrada="2400" WHERE modelo="Vectra" AND versao="Elite";

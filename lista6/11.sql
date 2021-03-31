@@ -1,0 +1,1 @@
+SELECT * FROM carro INNER JOIN montadora ON carro.idmontadora=montadora.idmontadora; 

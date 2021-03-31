@@ -1,0 +1,1 @@
+SELECT modelo,versao,(CAST(cilindrada as unsigned integer)*2) FROM carro WHERE CAST(cilindrada as unsigned integer)>=1000 AND combustivel="flex";
