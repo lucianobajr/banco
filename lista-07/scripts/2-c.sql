@@ -1,0 +1,1 @@
+SELECT nome,salario FROM funcionario WHERE salario BETWEEN 1500 AND 2000; 

@@ -1,0 +1,1 @@
+ALTER TABLE montadora CHANGE COLUMN nome nomemontadora VARCHAR(45);

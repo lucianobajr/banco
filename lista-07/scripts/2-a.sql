@@ -1,0 +1,1 @@
+SELECT nome,salario from funcionario WHERE nome LIKE "%o%";

@@ -1,0 +1,1 @@
+SELECT nome,salario FROM funcionario ORDER BY salario DESC LIMIT 1;
