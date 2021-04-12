@@ -4,7 +4,7 @@ SELECT paciente.NM_PAC,atendimento.DIA_ATEND
     HAVING atendimento.DIA_ATEND="1996-04-09";
     
     
-    SELECT paciente.NM_PAC
+SELECT paciente.NM_PAC
 	FROM paciente 
     	NATURAL JOIN atendimento 
     	WHERE atendimento.DIA_ATEND="1996-04-09";
