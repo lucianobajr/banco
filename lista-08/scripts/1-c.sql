@@ -1,0 +1,1 @@
+--Quais são os dados dos pacientes que ainda não tiveram nenhum atendimento?

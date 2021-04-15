@@ -1,0 +1,1 @@
+--Quais os nomes dos convênios que possuem pelo menos um paciente =>junção e sub-consultas

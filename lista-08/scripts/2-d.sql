@@ -1,0 +1,1 @@
+-- Quais os dados dos consumidores que não concretizaram nenhum negócio?

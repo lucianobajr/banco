@@ -1,0 +1,1 @@
+-- Quais os nomes dos pacientes que tiveram dignósticos com a palavra “Melhora”?

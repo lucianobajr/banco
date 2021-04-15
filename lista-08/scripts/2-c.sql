@@ -1,0 +1,3 @@
+-- Listar o modelo e o nome do fabricante de cada automóvel existente na base de
+-- dados, assim como seu país de fabricação. Os fabricantes que não tiverem modelos
+-- cadastrados também deverão ser listados

@@ -1,0 +1,1 @@
+--Quais os id’s e nomes dos convênios que não possuem pacientes?

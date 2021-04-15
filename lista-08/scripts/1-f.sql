@@ -1,0 +1,1 @@
+--Qual consulta pode ter gerado o seguinte resultado (inclusive considerando a ordem das tuplas)

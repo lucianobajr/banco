@@ -1,0 +1,3 @@
+-- Recuperar modelo, ano e preço dos automóveis, porém os automóveis brasileiros
+-- deverão ser exibidos com um valor 50% maior que o valor armazenado no banco de
+-- dados. A coluna relativa ao preço deverá ser exibida com o nome “valor”

@@ -1,0 +1,1 @@
+--Apresente os dados de todos os automóveis juntamente com todos os dados de seus respectivos fabricantes
