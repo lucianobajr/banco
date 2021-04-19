@@ -12,3 +12,7 @@ SELECT modelo,pais,nomeFabricante
 			FROM automovel 
 			JOIN fabricante ON automovel.codAuto=fabricante.codFabricante
 		);
+
+SELECT ifNull(modelo,"),ifNull(pais,"),nomefabricante
+	FROM automovel RIGHT JOIN fabricante
+	ON automovel.codFabricante = fabricante.codFabricante;
