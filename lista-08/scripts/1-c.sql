@@ -5,3 +5,10 @@ SELECT * FROM paciente
 		FROM paciente 
 		JOIN atendimento ON paciente.CD_PAC=atendimento.CD_PAC
 );
+
+SELECT * FROM paciente 
+	WHERE NOT EXISTS(
+		SELECT *
+		FROM paciente 
+		JOIN atendimento ON paciente.CD_PAC=atendimento.CD_PAC
+);
