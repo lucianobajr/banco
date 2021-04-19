@@ -12,3 +12,15 @@ SELECT NM_PAC
     IN(DESC_CONVENIO="Unimed - código 11347")
     ORDER BY DT_NASC
     LIMIT 1;
+    
+
+SELECT NM_PAC
+    FROM paciente 
+        JOIN convenio ON paciente.CONV_PAC=convenio.COD_CONVENIO
+        WHERE DESC_CONVENIO="Unimed - código 11347"
+    AND DT_NASC=(
+        SELECT MIN(DT_NASC)
+        FROM paciente 
+        JOIN convenio ON paciente.CONV_PAC=convenio.COD_CONVENIO
+        WHERE DESC_CONVENIO="Unimed - código 11347"
+    );
