@@ -4,3 +4,8 @@ SELECT * FROM consumidor
 		SELECT identidade FROM consumidor 
 		JOIN negocio ON consumidor.identidade=negocio.codComprador
 );
+
+SELECT * FROM consumidor LEFT JOIN negocio
+ON consumidor.identidade = negocio.codComprador
+WHERE codRevenda IS NULL;
+
