@@ -1,0 +1,1 @@
+select * FROM conveniopacientes WHERE numero_pacientes>2;

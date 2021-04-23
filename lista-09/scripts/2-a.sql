@@ -1,0 +1,1 @@
+SELECT modelo,versao,UCASE(montadora) FROM carros;

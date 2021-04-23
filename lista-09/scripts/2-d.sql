@@ -1,0 +1,1 @@
+SELECT DISTINCT REVERSE(CONCAT(UCASE(montadora),"-",modelo)) FROM carros;

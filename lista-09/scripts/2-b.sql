@@ -1,0 +1,1 @@
+SELECT modelo,versao,LEFT(montadora,4) FROM carros;

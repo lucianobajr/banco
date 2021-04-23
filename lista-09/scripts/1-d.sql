@@ -1,0 +1,1 @@
+SELECT * FROM pacientesatendidos WHERE NM_PAC LIKE "S%" OR "R%";

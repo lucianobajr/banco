@@ -1,0 +1,1 @@
+SELECT modelo,POW(cilindrada,3) FROM carros;
