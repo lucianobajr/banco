@@ -1,0 +1,1 @@
+SELECT nomeplat FROM plataforma;
