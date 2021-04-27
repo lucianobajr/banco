@@ -1,7 +1,7 @@
 /*Crie uma função chama jogos_desejados_plataforma que recupera o 
-nome dos jogos na lista de desejos, de uma plataforma passada por
-parâmetro. Como resposta a esta questão você deverá escrever o código
-da declaração da função somente*/
+nome do jogo na lista de desejos que possui maior prioridade, de uma 
+plataforma passada por parâmetro. Como resposta a esta questão você 
+deverá escrever o código da declaração da função somente*/
 
 CREATE FUNCTION jogos_desejados_plataforma (nome_plataforma VARCHAR(30))
 RETURNS VARCHAR(30) 

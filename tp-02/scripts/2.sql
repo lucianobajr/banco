@@ -1,4 +1,5 @@
 SELECT nomeplat,ano_lancamento 
 	FROM plataforma
-    NATURAL JOIN fabricante
+    JOIN fabricante
+    ON plataforma.idfabricante=fabricante.idfabricante
     WHERE ano_fundacao>1970;
