@@ -1,0 +1,18 @@
+[
+	{
+		"movie_genre_id" : 1,
+		"genre_name" : "drama"
+	},
+	{
+		"movie_genre_id" : 2,
+		"genre_name" : "thriller"
+	},
+	{
+		"movie_genre_id" : 3,
+		"genre_name" : "musical"
+	},
+	{
+		"movie_genre_id" : 4,
+		"genre_name" : "ação"
+	}
+]

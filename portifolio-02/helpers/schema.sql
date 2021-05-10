@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `portifolio`.`movie` (
   `production_year` INT UNSIGNED NOT NULL,
   `votes` INT UNSIGNED NOT NULL,
   `ranking` INT UNSIGNED NOT NULL,
-  `rating` INT UNSIGNED NOT NULL,
+  `rating` DECIMAL NOT NULL,
   PRIMARY KEY (`movie_id`),
   UNIQUE INDEX `movie_id_UNIQUE` (`movie_id` ASC) VISIBLE);
 
@@ -32,7 +32,6 @@ CREATE TABLE IF NOT EXISTS `portifolio`.`movie_genre` (
 CREATE TABLE IF NOT EXISTS `portifolio`.`movie_info` (
   `movie_id` INT UNSIGNED NOT NULL,
   `movie_genre_id` INT UNSIGNED NOT NULL,
-  `note` INT UNSIGNED NOT NULL,
   PRIMARY KEY (`movie_id`, `movie_genre_id`),
   FOREIGN KEY (`movie_id`) 
   REFERENCES `portifolio`.`movie` (`movie_id`),
@@ -71,10 +70,8 @@ CREATE TABLE IF NOT EXISTS `portifolio`.`role_type` (
 CREATE TABLE IF NOT EXISTS `portifolio`.`role` (
   `person_id` INT UNSIGNED NOT NULL,
   `movie_id` INT UNSIGNED NOT NULL,
-  `role_name` INT NOT NULL,
   `role_type_id` INT UNSIGNED NOT NULL,
-  PRIMARY KEY (`person_id`, `movie_id`, `role_name`, `role_type_id`),
-  UNIQUE INDEX `role_name_UNIQUE` (`role_name` ASC) VISIBLE,
+  PRIMARY KEY (`person_id`, `movie_id`, `role_type_id`),
     FOREIGN KEY (`person_id`)
     REFERENCES `portifolio`.`person` (`person_id`),
     FOREIGN KEY (`movie_id`)

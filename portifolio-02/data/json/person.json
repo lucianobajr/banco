@@ -1,0 +1,47 @@
+[
+	{
+		"person_id" : 1,
+		"person_name" : "morten tyldum",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 2,
+		"person_name" : "bong joon-ho",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 3,
+		"person_name" : "dexter fletcher",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 4,
+		"person_name" : "ryan coogler",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 5,
+		"person_name" : "shaka king",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 6,
+		"person_name" : "scott derrickson",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 7,
+		"person_name" : "louis leterrier",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 8,
+		"person_name" : "matthew vaughn",
+		"gender" : "M"
+	},
+	{
+		"person_id" : 9,
+		"person_name" : "david fincher",
+		"gender" : "M"
+	}
+]

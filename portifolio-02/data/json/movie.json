@@ -1,0 +1,82 @@
+[
+	{
+		"movie_id" : 1,
+		"movie_name" : "o jogo da imitação",
+		"production_year" : 2014,
+		"votes" : 20,
+		"ranking" : 1,
+		"rating" : 10
+	},
+	{
+		"movie_id" : 2,
+		"movie_name" : "parasita",
+		"production_year" : 2019,
+		"votes" : 18,
+		"ranking" : 2,
+		"rating" : 9
+	},
+	{
+		"movie_id" : 3,
+		"movie_name" : "rocketman",
+		"production_year" : 2019,
+		"votes" : 10,
+		"ranking" : 3,
+		"rating" : 8
+	},
+	{
+		"movie_id" : 4,
+		"movie_name" : "pantera negra",
+		"production_year" : 2018,
+		"votes" : 14,
+		"ranking" : 4,
+		"rating" : 8
+	},
+	{
+		"movie_id" : 5,
+		"movie_name" : "judas e o messias negro",
+		"production_year" : 2021,
+		"votes" : 12,
+		"ranking" : 5,
+		"rating" : 7
+	},
+	{
+		"movie_id" : 6,
+		"movie_name" : "doutor estranho",
+		"production_year" : 2016,
+		"votes" : 9,
+		"ranking" : 6,
+		"rating" : 6
+	},
+	{
+		"movie_id" : 7,
+		"movie_name" : "truque de mestre",
+		"production_year" : 2013,
+		"votes" : 8,
+		"ranking" : 7,
+		"rating" : 6
+	},
+	{
+		"movie_id" : 8,
+		"movie_name" : "kingsman: serviço secreto",
+		"production_year" : 2014,
+		"votes" : 5,
+		"ranking" : 8,
+		"rating" : 5
+	},
+	{
+		"movie_id" : 9,
+		"movie_name" : "a rede social",
+		"production_year" : 2010,
+		"votes" : 10,
+		"ranking" : 9,
+		"rating" : 5
+	},
+	{
+		"movie_id" : 10,
+		"movie_name" : "clube da luta",
+		"production_year" : 1999,
+		"votes" : 11,
+		"ranking" : 10,
+		"rating" : 5
+	}
+]
