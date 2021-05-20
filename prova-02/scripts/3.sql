@@ -1,1 +1,0 @@
-DELETE FROM cargo WHERE idcargo NOT IN(SELECT idcargo FROM funcionario);
